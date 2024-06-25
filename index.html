@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player V2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <div id="main">
+        <!-- Navbar -->
+        <div class="navbar">
+            <a class="brand-name" href="index.html">
+                <i class="fab fa-soundcloud"></i>
+                tVhow
+            </a>
+            <div class="nav">
+                <h3 class="nav-name">MENU</h3>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fas fa-music"></i>
+                            Music
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fas fa-music"></i>
+                            Music
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fas fa-music"></i>
+                            Music
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fas fa-music"></i>
+                            Music
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav">
+                <h3 class="nav-name">MENU</h3>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fas fa-music"></i>
+                            Music
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fas fa-music"></i>
+                            Music
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fas fa-music"></i>
+                            Music
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fas fa-music"></i>
+                            Music
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Container -->
+        <div id="container">
+            <!-- Main section -->
+            <div id="main-section">
+                <!-- Header -->
+                <div class="header-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Live</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Podcast</a>
+                        </li>
+                    </ul>
+                    <div class="header-search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="search" name="search" id="header-search" placeholder="type to search">
+                    </div>
+                </div>
+                <!-- Trending -->
+                <div class="trending">
+                    <h4 class="trending-title">
+                        Trending new song
+                    </h4>
+                    <div class="content">
+                        <div class="content__info">
+                            <h1 class="title">Mood Boosters</h1>
+                            <div class="desc">
+                                <h3>Chúng ta của tương lai</h3>
+                                <p>55 Millions Play</p>
+                            </div>
+                            <div class="tools">
+                                <button class="btn-play" type="button">Listen now</button>
+                                <button class="btn-heart" type="button">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content__img">
+                            <img src="./assets/img/Chung-Ta-Cua-Tuong-Lai-Son-Tung-MTP.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Playlist -->
+                <div class="playlist">
+                    <div class="playlist-genre">
+                        <div class="header">
+                            <div class="title">
+                                Genre
+                            </div>
+                            <a href="#" class="see-all">
+                                See all
+                            </a>
+                        </div>
+                        <!-- Genre list -->
+                        <div class="genre-list">
+                            <div class="genre-item">
+                                Pop
+                            </div>
+                            <div class="genre-item">
+                                Rap
+                            </div>
+                            <div class="genre-item">
+                                Hiphop
+                            </div><div class="genre-item">
+                                Pop
+                            </div>
+                            <div class="genre-item">
+                                Rap
+                            </div>
+                            <div class="genre-item">
+                                Hiphop
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Top song list -->
+                    <div class="playlist-list">
+                        <div class="header">
+                            <div class="title">
+                                Top songs
+                            </div>
+                            <a href="#" class="see-all">
+                                See all
+                            </a>
+                        </div>
+                        <div class="song-list">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Player section -->
+            <div id="player-section">
+                <div class="header">
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-gear"></i>
+                    <div class="account">
+                        <div class="avt">
+                            <img src="./assets/img/Die-For-You-Remix-The-Weeknd-x-Ariana-Grande.jpg" alt="">
+                        </div>
+                        <div class="name">
+                            Hau Nguyen
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="header">
+                        <h3>Player</h3>
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="cd">
+                        <div class="cd-thumb">
+
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <h2>Tên bài</h2>
+                        <p>Thể loại</p>
+                    </div>
+                    <div class="time">
+                        <p class="start">
+                            0:00
+                        </p>
+                        <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+                        <p class="end">
+                            5:55
+                        </p>
+                    </div>
+                    <audio id="audio" src="">
+
+                    </audio>
+                    <div class="control">
+                        <div class="btn btn-repeat">
+                            <i class="fas fa-redo"></i>
+                        </div>
+                        <div class="btn btn-prev">
+                            <i class="fas fa-step-backward"></i>
+                        </div>
+                        <div class="btn btn-toggle-play">
+                            <i class="fas fa-pause icon-pause"></i>
+                            <i class="fas fa-play icon-play"></i>
+                        </div>
+                        <div class="btn btn-next">
+                            <i class="fas fa-step-forward"></i>
+                        </div>
+                        <div class="btn btn-random">
+                            <i class="fas fa-random"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./assets/js/main.js"></script>
+
+</html>
